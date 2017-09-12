@@ -8,7 +8,7 @@ python操作Excel的模块，网上提到的模块大致有：xlwings、xlrd、x
 * 开源免费，一直在更新
 
 ## 基本操作
-*1 打开已保存的Excel文档
+### 1、打开已保存的Excel文档
 ```
 # 导入xlwings模块，打开Excel程序，默认设置：程序可见，只打开不新建工作薄，屏幕更新关闭
  import xlwings as xw
@@ -22,7 +22,7 @@ python操作Excel的模块，网上提到的模块大致有：xlwings、xlrd、x
  wb.close()
  app.quit()
  ```
-*2 新建Excel文档，命名为test.xlsx，并保存在D盘。
+### 2、新建Excel文档，命名为test.xlsx，并保存在D盘。
  ```
  import xlwings as xw
  app=xw.App(visible=True,add_book=False)
@@ -31,7 +31,7 @@ python操作Excel的模块，网上提到的模块大致有：xlwings、xlrd、x
  wb.close()
  app.quit()
  ```
-*3 在单元格输入值
+### 3、在单元格输入值
 新建test.xlsx，在sheet1的第一个单元格输入 “人生” ，然后保存关闭，退出Excel程序。
  ```
  import xlwings as xw
@@ -43,7 +43,7 @@ python操作Excel的模块，网上提到的模块大致有：xlwings、xlrd、x
  wb.close()
  app.quit()
  ```
-*4 打开已保存的test.xlsx，在sheet2的第二个单元格输入“苦短”，然后保存关闭，退出Excel程序
+### 4、打开已保存的test.xlsx，在sheet2的第二个单元格输入“苦短”，然后保存关闭，退出Excel程序
  ```
  import xlwings as xw
  app=xw.App(visible=True,add_book=False)
