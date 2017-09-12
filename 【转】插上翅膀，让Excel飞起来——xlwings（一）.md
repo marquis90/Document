@@ -63,19 +63,27 @@ python操作Excel的模块，网上提到的模块大致有：xlwings、xlrd、x
  wb.=xw.books['工作簿的名字‘]
  ```
 ### 2、引用活动工作簿
+```
  wb=xw.books.active
+```
 ### 3、引用工作簿中的sheet
+```
  sht=xw.books['工作簿的名字‘].sheets['sheet的名字']
  # 或者
  wb=xw.books['工作簿的名字']
  sht=wb.sheets[sheet的名字]
+```
 ### 4、引用活动sheet
+``` 
  sht=xw.sheets.active
+```
 ### 5、引用A1单元格
+``` 
  rng=xw.books['工作簿的名字‘].sheets['sheet的名字']
  # 或者
  sht=xw.books['工作簿的名字‘].sheets['sheet的名字']
  rng=sht.range('A1')
+```
 ### 6、引用活动sheet上的单元格
 ```
  # 注意Range首字母大写
@@ -108,9 +116,11 @@ PS： 对于单元格也可以用表示行列的tuple进行引用
 ## 储存数据
 
 ### 1、储存单个值
+```
    # 注意".value“
    sht.range('A1').value=1
-### 2\储存列表
+```
+### 2、储存列表
 ```
     # 将列表[1,2,3]储存在A1：C1中
     sht.range('A1').value=[1,2,3]
