@@ -4,13 +4,7 @@ python操作Excel的模块，网上提到的模块大致有：xlwings、xlrd、x
 
 >'hello,git!'
 
-'
-print("Hello!")
-'
-
-``` javascript
-锄禾日当午
-汗滴禾下土
-谁知盘中餐
-粒粒皆辛苦
 ```
+print("Hello!")
+```
+
