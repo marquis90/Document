@@ -293,4 +293,4 @@ wb.save(path=None) 保存工作簿，默认路径为工作簿原路径，若未�
 
 小Z同学在看了这么cliche但是好玩的东西之后，自己果断地修改了代码，改变了单元格的颜色，并在sheet里面进行了题字，然后，便有新的作品：  
 下一课有机会教小z同学，利用python自带的time模块，让Excel中静态的画和字动起来，成为像gif一样的图片。
-![ss](http://upload-images.jianshu.io/upload_images/2979196-a1a5011dd2410a59.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)"ss"
+![小z的作品.png](http://upload-images.jianshu.io/upload_images/2979196-a1a5011dd2410a59.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
