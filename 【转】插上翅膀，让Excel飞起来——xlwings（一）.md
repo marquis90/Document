@@ -396,11 +396,11 @@ rng.value=['a1','a2','a3']
 
 ## 运用Python自定义宏（仅限Windows)
 ### 1、准备工作
-  #### 1、安装xlwings模块
-  #### 2、下载模版文件，百度网盘链接：[xlwings自定义宏和函数模版](https://pan.baidu.com/s/1kVaAbqB)
+  ####   1、安装xlwings模块
+  ####   2、下载模版文件，百度网盘链接：[xlwings自定义宏和函数模版](https://pan.baidu.com/s/1kVaAbqB)
   ![文件列表](http://upload-images.jianshu.io/upload_images/2979196-2698e9cfdffdf416.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
   其中，自定义模版可以修改名称，mymacro为自定义宏的python文件，myfun为自定义函数的python文件。
-  #### 3、设置Excel信任中心，信任对VBA工程对象模型的访问
+  ####   3、设置Excel信任中心，信任对VBA工程对象模型的访问
   ![信任中心设置](http://upload-images.jianshu.io/upload_images/2979196-51ede8882be91406.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ### 2、自定义宏
 用记事本打开mymacro0，输入下列语句：
