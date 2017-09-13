@@ -383,7 +383,7 @@ rng.value=['a1','a2','a3']
 * 再介绍了xlwings，如何对Excel表格的行和列写入和引用数据
 * 通过二维或者一维列表对Excel工作表的数据进行写入或者引用，既简化了代码，也提高了程序的效率。因为python读写Excel表格的速度，原小于python程序自身的运行速度。
 
-###前言
+### 前言
 
 当年看《别怕，Excel VBA其实很简单》相见恨晚，看了第一版电子版之后，买了纸质版，然后将其送人。而后，发现出了第二版，买之收藏。之后，发现Python这一编程语言，简直是逆天，业余非程序员的福音。人生苦短，我用python。简短几句代码，实现好多自己不敢想的功能。
 自学VBA发现对VBA和python，我有着这样几个看法：（只是针对自动化办公）
@@ -396,12 +396,12 @@ rng.value=['a1','a2','a3']
 
 ## 运用Python自定义宏（仅限Windows)
 ### 1、准备工作
-#### 1、安装xlwings模块
-#### 2、下载模版文件，百度网盘链接：[xlwings自定义宏和函数模版](https://pan.baidu.com/s/1kVaAbqB)
-![文件列表](http://upload-images.jianshu.io/upload_images/2979196-2698e9cfdffdf416.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-其中，自定义模版可以修改名称，mymacro为自定义宏的python文件，myfun为自定义函数的python文件。
-#### 3、设置Excel信任中心，信任对VBA工程对象模型的访问
-![信任中心设置](http://upload-images.jianshu.io/upload_images/2979196-51ede8882be91406.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  #### 1、安装xlwings模块
+  #### 2、下载模版文件，百度网盘链接：[xlwings自定义宏和函数模版](https://pan.baidu.com/s/1kVaAbqB)
+  ![文件列表](http://upload-images.jianshu.io/upload_images/2979196-2698e9cfdffdf416.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
+  其中，自定义模版可以修改名称，mymacro为自定义宏的python文件，myfun为自定义函数的python文件。
+  #### 3、设置Excel信任中心，信任对VBA工程对象模型的访问
+  ![信任中心设置](http://upload-images.jianshu.io/upload_images/2979196-51ede8882be91406.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ### 2、自定义宏
 用记事本打开mymacro0，输入下列语句：
 ```
