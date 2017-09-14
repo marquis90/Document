@@ -349,7 +349,7 @@ python的列表，可以和Excel中的行列进行数据交换，python中的一
 python的二维列表，可以转换为Excel中的行列。二维列表，即列表中的元素还是列表。在Excel中，二维列表中的列表元素，代表Excel表格中的一列。例如：
 ```
    # 将a1,a2,a3输入第一列，b1,b2,b3输入第二列
-   list1=[[‘a1’,'a2','a3'],['b1','b2','b3']]
+   list1=[['a1','a2','a3'],['b1','b2','b3']]
    sht.range('A1').value=list1
 ```
 ![运行结果](http://upload-images.jianshu.io/upload_images/2979196-1d32bc4b4499af95.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
