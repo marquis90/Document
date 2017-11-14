@@ -7,3 +7,4 @@
 * 2、[债券编码命名规则](https://github.com/marquis90/doc/blob/master/%E5%80%BA%E5%88%B8%E7%BC%96%E7%A0%81%E5%91%BD%E5%90%8D%E8%A7%84%E5%88%99.md)
 * 3、[资金交易员的修行手册](https://github.com/marquis90/Document/blob/master/%E8%B5%84%E9%87%91%E4%BA%A4%E6%98%93%E5%91%98%E7%9A%84%E4%BF%AE%E8%A1%8C%E6%89%8B%E5%86%8C.md)
 * 4、[交易所回购](https://github.com/marquis90/Document/blob/master/%E4%BA%A4%E6%98%93%E6%89%80.md)
+* 5、[邓海清：为何债市不再跟随央妈指挥棒起舞？](https://github.com/marquis90/Document/blob/master/%E9%82%93%E6%B5%B7%E6%B8%85%EF%BC%9A%E4%B8%BA%E4%BD%95%E5%80%BA%E5%B8%82%E4%B8%8D%E5%86%8D%E8%B7%9F%E9%9A%8F%E5%A4%AE%E5%A6%88%E6%8C%87%E6%8C%A5%E6%A3%92%E8%B5%B7%E8%88%9E%EF%BC%9F.md)
